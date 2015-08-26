@@ -1,0 +1,32 @@
+#topnav{
+	position:relative;
+	margin:0 auto;
+	display:block;
+	
+	font-size:18px;
+	z-index:1000;
+	}
+
+#topnav ul, #topnav li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#topnav li{
+	float:left;
+	margin-left:30px;
+	}
+
+#topnav li li{
+	margin-right:0;
+	}
+
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{
+	display:block;
+	margin:0;
+	padding:15px 0;
+	color:#F8F9F3;
+	background-color:#072C53;
+	text-transform:uppercase;
+	}

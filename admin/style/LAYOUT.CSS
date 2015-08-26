@@ -1,0 +1,184 @@
+@import url(navi.css);
+@import url(forms.css);
+
+
+body{
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#545454;
+	background-color:#F8F8F8;
+	}
+
+
+img{margin:0; padding:0; border:none;}
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:inline-block;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+
+
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{
+	display:block;
+	width:100%;
+	text-align:left;
+	}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+	margin:0 0 15px 0;
+	padding:0;
+	font-size:20px;
+	font-weight:normal;
+	line-height:normal;
+	}
+
+.row1{color:#999900; background-color:#F8F8F8;}
+.row1 a{color:#000000; background-color:#F8F8F8;}
+.row2{color:#FFFF33; background-color:#F8F8F8; border-top:1px solid #2B4D71; border-bottom:1px solid #2B4D71;}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+.heading{
+	text-align:center;
+	}
+
+#header{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	height:auto;
+	min-height:100px;
+	width:960px;
+	}
+	
+#copyright{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	width:960px;
+	}
+
+/* ----------------------------------------------Header-------------------------------------*/
+
+#under_construction{
+	margin: 0 auto 0 auto;
+	width:960px;
+	height:auto;
+	}
+
+#header{
+	padding:20px;
+	}
+
+#header h1, #header p, #header ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:normal;
+	}
+
+#header h1{font-size:36px; font-variant:small-caps;}
+#header p{margin-top:4px;}
+
+
+
+
+#containt_wrapper{
+	background:#F8F8F8;
+	width:100%;
+	height:auto;
+	}	
+	
+#containt_area{
+	position:relative;
+	margin:0 auto 0;
+	display:block;
+	width:960px;
+	min-height:400px;
+	height:auto;
+	background-color:#F8F8F8;
+	}
+	
+#containt_left{
+	margin-top:10px;
+	position:relative;
+	float:left;
+	display:block;
+	width:200px;
+	height:auto;
+	min-height:400px;
+	background-color:#EBEBEB;
+	margin-bottom:10px;
+	
+	}		
+#containt_right{
+	margin-top:10px;
+	position:relative;
+	float:right;
+	display:block;
+	width:750px;
+	height:auto;
+	min-height:400px;
+	margin-bottom:10px;
+	margin-left:0px;
+	background-color:#EBEBEB;
+	}		
+	
+h2.link{
+	margin-top:5px; margin-bottom:0px; color:#8B9596;
+	font-weight:600;
+	font-size:16px;
+	}
+#itdham_logo{
+	width:auto;
+	height:auto;
+	float:left;
+	}
+	
+#read_more{
+	margin-left:380px;
+	}
+#copyright{
+	padding:15px 0;
+	border-top:1px solid #2B4D71;
+	}
+
+#copyright p{
+	margin:0;
+	padding:0;
+	}
+
+#copyright, #copyright a{
+	color:#7F99A9;
+	background-color:#F8F8F8;
+	}					
+#ff
+{
+float:right;
+}	
+#srch{
+float:inherit;
+}
+.abc{
+list-style:none;
+color:#6666FF;
+}
+.abc .abc li a:link
+{
+color:#0066FF;
+}
